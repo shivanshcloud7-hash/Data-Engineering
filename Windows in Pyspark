@@ -1,1 +1,9 @@
 from pyspark.sql import functions as F
+
+
+data = [('Alfred', 101, 'IT'), ('Ronald', 102, 'Player')]
+header = ['name', 'id', 'dept']
+
+df = spark.createDataFrame(data, header)
+df.show()
+
