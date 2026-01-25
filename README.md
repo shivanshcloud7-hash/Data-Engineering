@@ -94,3 +94,131 @@ Data-Engineering/
     ├── pyspark_qna.md
     ├── databricks_qna.md
     └── system_design.md
+
+```
+
+# 🧠 Key Topics Covered
+
+## 🔹 PySpark Core
+
+DataFrame API
+
+Schema handling
+
+Column expressions
+
+Null handling
+
+UDF vs built-in functions
+
+---
+
+
+## 🔹 Advanced Transformations
+
+Window functions
+
+Regex & string processing
+
+Date and time manipulation
+
+Deduplication strategies
+
+---
+
+
+## 🔹 SQL & Analytics
+
+Window functions in SQL
+
+Ranking & aggregation patterns
+
+Query optimization basics
+
+---
+
+## 🔹 Databricks Concepts
+
+DBFS
+
+Delta Lake fundamentals
+
+Unity Catalog (conceptual understanding)
+
+Bronze–Silver–Gold architecture
+
+---
+
+
+## 🔹 Pipelines & ETL
+
+Incremental data loads
+
+SCD Type 1 & Type 2
+
+Data quality checks
+
+Idempotent pipelines
+
+---
+
+
+## 📌 Design Philosophy
+
+Small, understandable datasets
+
+One concept per notebook
+
+Clear markdown explanations
+
+Edge cases included
+
+Interview-focused scenarios
+
+This repository is not meant to be a framework —
+it is meant to demonstrate thinking, clarity, and problem-solving.
+
+---
+
+
+## 🎯 Intended Audience
+
+Data Engineers (Beginner → Intermediate)
+
+PySpark learners
+
+Databricks practitioners
+
+Interview preparation (Azure / Databricks / Spark roles)
+
+---
+
+
+## 📈 How to Use This Repo
+
+Start with pyspark/basics
+
+Move to transformations, joins, and window_functions
+
+Explore case_studies for real-world problems
+
+Review interview_prep before interviews
+
+--
+
+
+## ⚠️ Notes
+
+Unity Catalog features are explained conceptually due to
+limitations of Databricks Community Edition.
+
+Code is written to be portable between local Spark and Databricks.
+
+---
+
+
+## 📬 Feedback & Improvements
+
+Suggestions, improvements, and discussions are welcome.
+This repository will evolve as new scenarios and patterns are added.
+
